@@ -5,7 +5,7 @@ struct Node{
     Node* next;
 };
 Node* head;
-void Insert(int data) //To insert data to the end of list
+void Insert(int data) //To insert data to the beginning of list
 {
     Node* temp = new Node();
 	temp->data = data;
