@@ -65,13 +65,13 @@ void print(){
 int main(){
     head = NULL;
     int n,x;
-    char flag;
+    int flag = 1;
     while(flag){
         cout<<"Enter element to insert: ";
         cin>>x;
         Insert(x);
         cout<<"Do you want to continue? Press 1 to continue else press 0 ";
-        cin.ignore();
+        cin>>flag;
     }
     print();
     cout<<"\n Enter position to delete: ";
